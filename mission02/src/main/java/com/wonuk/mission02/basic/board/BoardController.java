@@ -18,7 +18,7 @@ public class BoardController {
     private final BoardRepository boardRepository;
 
     public BoardController(
-            BoardRepository boardRepository
+            @Autowired BoardRepository boardRepository
     ) {
         this.boardRepository = boardRepository;
     }
