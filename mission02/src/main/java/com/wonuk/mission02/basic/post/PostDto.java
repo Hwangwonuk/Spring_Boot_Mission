@@ -1,50 +1,31 @@
 package com.wonuk.mission02.basic.post;
 
 public class PostDto {
-    private int postId;
-    private int boardId;
-    private String password;
+    private Long id;
     private String title;
     private String content;
     private String writer;
-
-    @Override
-    public String toString() {
-        return "PostDto{" +
-                "id=" + postId +
-                ", boardId='" + boardId + '\'' +
-                ", password='" + password + '\'' +
-                ", title='" + title + '\'' +
-                ", content='" + content + '\'' +
-                ", writer='" + writer + '\'' +
-                '}';
-    }
+    private String password;
+    private Long boardId;
 
     public PostDto() {
     }
 
-    public int getPostId() {
-        return postId;
-    }
-
-    public void setPostId(int postId) {
-        this.postId = postId;
-    }
-
-    public int getBoardId() {
-        return boardId;
-    }
-
-    public void setBoardId(int boardId) {
+    public PostDto(Long id, String title, String content, String writer, String password, Long boardId) {
+        this.id = id;
+        this.title = title;
+        this.content = content;
+        this.writer = writer;
+        this.password = password;
         this.boardId = boardId;
     }
 
-    public String getPassword() {
-        return password;
+    public Long getId() {
+        return id;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -71,12 +52,42 @@ public class PostDto {
         this.writer = writer;
     }
 
-    public PostDto(int postId, int boardId, String password, String title, String content, String writer) {
-        this.postId = postId;
-        this.boardId = boardId;
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
         this.password = password;
-        this.title = title;
-        this.content = content;
-        this.writer = writer;
+    }
+
+    public Long getBoardId() {
+        return boardId;
+    }
+
+    public void setBoardId(Long boardId) {
+        this.boardId = boardId;
+    }
+
+    @Override
+    public String toString() {
+        return "PostDto{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                ", writer='" + writer + '\'' +
+                ", password='" + password + '\'' +
+                ", boardId=" + boardId +
+                '}';
+    }
+
+    public PostDto passwordMasked() {
+        return new PostDto(
+                this.id,
+                this.title,
+                this.content,
+                this.writer,
+                "*****",
+                this.boardId
+        );
     }
 }

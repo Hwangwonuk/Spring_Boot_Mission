@@ -1,38 +1,38 @@
 package com.wonuk.mission02.basic.board;
 
 public class BoardDto {
-    private int boardId;
-    private String boardName;
-
-    @Override
-    public String toString() {
-        return "BoardDto{" +
-                "boardId=" + boardId +
-                ", boardName='" + boardName + '\'' +
-                '}';
-    }
+    private Long id;
+    private String name;
 
     public BoardDto() {
     }
 
-    public int getBoardId() {
-        return boardId;
+    public BoardDto(Long id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
-    public void setBoardId(int boardId) {
-        this.boardId = boardId;
+    public Long getId() {
+        return id;
     }
 
-    public String getBoardName() {
-        return boardName;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public void setBoardName(String boardName) {
-        this.boardName = boardName;
+    public String getName() {
+        return name;
     }
 
-    public BoardDto(int boardId, String boardName) {
-        this.boardId = boardId;
-        this.boardName = boardName;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "BoardDto{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
