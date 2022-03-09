@@ -20,3 +20,8 @@ http://localhost:8080/{boardId}/posts
       
    
 ## 6주차 Challenge Mission 03  
+![1](https://user-images.githubusercontent.com/86584999/157380185-6ab720e1-6258-4019-8f39-8c351f1fbb9e.PNG)   
+![2](https://user-images.githubusercontent.com/86584999/157380197-6da907d6-9da9-4f8a-91db-f10a792dd8c5.PNG)   
+![3](https://user-images.githubusercontent.com/86584999/157380204-abc737cd-6e15-4ca9-b05c-fa478d8c38f1.png)   
+![4](https://user-images.githubusercontent.com/86584999/157380210-d974406e-5a56-4e9f-9b58-4f62580f596f.png)   
+
