@@ -27,6 +27,18 @@ http://localhost:8080/{boardId}/posts
    
    
 ## 8주차 Basic Mission 04.  
-![스크린샷 2022-03-19 오후 10 13 12](https://user-images.githubusercontent.com/86584999/159122688-b514cda1-e650-4354-9119-7c02c3ebc662.png).  
+![스크린샷 2022-03-19 오후 10 13 12](https://user-images.githubusercontent.com/86584999/159122688-b514cda1-e650-4354-9119-7c02c3ebc662.png)   
 ![스크린샷 2022-03-19 오후 10 12 25](https://user-images.githubusercontent.com/86584999/159122703-b411f25f-cb7e-4c79-9512-7e18eb13a860.png)   
-![스크린샷 2022-03-19 오후 10 12 57](https://user-images.githubusercontent.com/86584999/159122708-04c3be04-188e-4753-a70d-946fa2ba3067.png).  
+![스크린샷 2022-03-19 오후 10 12 57](https://user-images.githubusercontent.com/86584999/159122708-04c3be04-188e-4753-a70d-946fa2ba3067.png)   
+   
+## 8주차 Basic Mission 04   
+# CustomFilter.  
+![CustomFilter](https://user-images.githubusercontent.com/86584999/159129355-53812369-8169-419b-adbd-b05881d79aa7.png)    
+    
+# WebSecurityConfig. 
+![WebSecurityConfig - configure](https://user-images.githubusercontent.com/86584999/159129371-c834c7fe-687e-49df-a908-63a21b061f1a.png)    
+    
+# CustomSuccessHandler    
+![CustomSuccessHandler](https://user-images.githubusercontent.com/86584999/159129415-b9d4d094-c6d6-4329-9f73-4cec010a9a02.png)    
+     
+   
